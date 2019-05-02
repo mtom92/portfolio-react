@@ -21,6 +21,10 @@
   color: #61dafb;
 }
 
+h1{
+  margin-top: 0;
+}
+
 nav {
   background-color: darkgreen;
   color:red;
@@ -42,6 +46,86 @@ nav a {
   font-weight: bold;
   color: aqua;
 }
+
+.mini  {
+  height: 300px;
+  width:300px;
+}
+.about{
+   border-radius: 200px;
+   border: 3px solid blue;
+}
+
+.divabout{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0 100px;
+}
+
+.divabout ul li{
+  text-decoration: none;
+}
+
+#projects{
+  background:url(https://i.ibb.co/Jzt4fRk/robotspaper.jpg) repeat;
+}
+
+.just-projects{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.title-project h1{
+  background:white;
+  border: #BEDF1F 5px solid;
+  margin-right:400px;
+  margin-left:400px;
+  text-align:center;
+}
+
+
+.project{
+  height:300px;
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  border:#BEDF1F 5px solid;
+  border-radius: 20px;
+  background:#2E7DCB;
+  margin-bottom:20px;
+}
+
+.mini{
+  display:flex;
+  align-items:center;
+
+}
+.project-title{
+  background:#25619D;
+  display:flex;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size:20px;
+  justify-content:center;
+  align-items:center;
+}
+
+.miniimg{
+  height:238px;
+  width:400px;
+  border-top-left-radius: 18px;
+  border-top-right-radius:18px;
+}
+
+#backhome{
+  height:608px;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Panoramic_view_of_Teotihuacan.jpg);
+}
+
+
 
 @keyframes App-logo-spin {
   from {
